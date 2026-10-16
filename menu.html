@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Haven Café — comfort food with a fresh perspective. Explore our menu and try our interactive demo ordering.">
+<title>Our menu | Haven Café
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header reference-header"><a class="brand" href="index.html" aria-label="Haven home"><img src="images/haven-logo.png" alt="haven"></a><nav aria-label="Main navigation"><a href="index.html" >HOME</a><a href="menu.html" aria-current="page">MENU</a><a href="branches.html">BRANCHES</a><a href="about.html">ABOUT US</a></nav></header>
+<main class="haven-menu">
+<aside class="menu-sidebar" aria-label="Menu categories"><a href="index.html" class="sidebar-brand"><img src="images/haven-logo.png" alt="haven"></a>
+<div id="category-filters" class="filters">
+<button data-category="All" class="active" aria-pressed="true">All items
+</button>
+<h3>BEVERAGES
+</h3>
+<button data-category="Coffee" aria-pressed="false">Coffee
+</button>
+<button data-category="Frappe" aria-pressed="false">Frappe
+</button>
+<button data-category="Milkshake" aria-pressed="false">Milkshake
+</button>
+<button data-category="Tea &amp; Refreshers" aria-pressed="false">Tea &amp; Refreshers
+</button>
+<h3>FOOD
+</h3>
+<button data-category="Sandwiches &amp; Toasts" aria-pressed="false">Sandwiches &amp; Toasts
+</button>
+<button data-category="Finger Foods" aria-pressed="false">Finger Foods
+</button>
+<button data-category="Pasta" aria-pressed="false">Pasta
+</button>
+<button data-category="Rice Meals" aria-pressed="false">Rice Meals
+</button>
+<button data-category="Cakes &amp; Desserts" aria-pressed="false">Cakes &amp; Desserts
+</button>
+</div>
+</aside>
+<section class="menu-content">
+<div class="menu-heading">
+<p class="eyebrow">SIP. DREAM. REPEAT.
+</p>
+<h1>Our menu
+</h1>
+<p>A little something for every kind of day.
+</p>
+</div>
+<div class="menu-tools"><button id="theme-toggle" class="icon-button" aria-label="Switch color theme">☾</button><button id="cart-toggle" class="cart-button">Your bag <span id="cart-count">0</span></button></div><div class="menu-toolbar">
+<label class="search-label"><span class="sr-only">Search menu</span><input id="menu-search" type="search" placeholder="Search your favorite…">
+</label>
+<label class="sort-label">Sort by <select id="menu-sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+</label>
+</div>
+<div class="menu-results">
+<h2 id="category-heading">All items
+</h2>
+<p id="results-count" role="status">
+</p>
+</div>
+<div id="menu-grid" class="food-grid">
+</div>
+<p id="empty-state" hidden>No items found. Try another search or category.
+</p>
+<div class="allergy-note"><strong>Before you order</strong>
+<p>Sample prices are in Philippine pesos. Drink prices shown are for a 16 oz serving. Images are representative; ingredients and recipes are sample descriptions. Check allergens for each item. All orders are classroom simulations.
+</p>
+</div>
+</section>
+</main>
+<footer class="reference-footer">
+  <div class="footer-links"><a href="about.html">About Us</a><a href="contact.html">Contact Us</a><a href="privacy.html">Privacy Policy</a></div>
+  <div class="footer-links"><a href="menu.html">In-Store Menu</a><a href="branches.html">Branches</a></div>
+  <div class="footer-order"><a href="menu.html" class="order-now">ORDER NOW</a><div><button type="button" data-delivery="FoodPanda">FoodPanda</button><span>•</span><button type="button" data-delivery="GrabFood">GrabFood</button></div><div class="social-links"><button type="button" data-social="Facebook" aria-label="Facebook">f</button><button type="button" data-social="Instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1"/></svg></button></div><p>©2026 Haven Coffee. All rights reserved</p></div>
+</footer>
+<dialog id="cart-dialog" aria-labelledby="cart-title">
+<div class="dialog-heading">
+<h2 id="cart-title">Your bag
+</h2>
+<button id="cart-close" class="icon-button" aria-label="Close bag">✕
+</button>
+</div>
+<p class="muted">A little happiness, made to order.
+</p>
+<div id="cart-items">
+</div>
+<div class="cart-total"><span>Total</span><strong id="cart-total">₱0.00</strong>
+</div>
+<form id="order-form">
+<label>Your name<input id="customer-name" required maxlength="60" placeholder="Who are we cooking for?">
+</label>
+<label>Order type<select id="order-type"><option value="Dine-in">Dine-in</option><option value="Takeaway">Takeaway</option></select>
+</label>
+<p id="order-note" class="muted">We’ll prepare your order for your table.
+</p>
+<button class="primary-button" id="checkout-button" type="submit">Place demo order →
+</button>
+<p class="fine-print">Classroom demo only. No payment or real order is sent.
+</p>
+</form>
+<div id="order-success" role="status" hidden>
+</div>
+</dialog>
+<div id="toast" role="status" aria-live="polite">
+</div>
+<script src="js/script.js" defer>
+</script>
+</body>
+</html>

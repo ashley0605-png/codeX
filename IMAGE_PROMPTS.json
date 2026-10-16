@@ -1,0 +1,176 @@
+{
+  "method": "Built-in imagegen",
+  "style": "Square photorealistic cafe menu product photography, centered full item on pale warm beige studio background, no text or logos.",
+  "items": [
+    {
+      "id": "item-1",
+      "name": "Spanish Latte",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-2",
+      "name": "White Mocha",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-3",
+      "name": "Caramel Latte",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-4",
+      "name": "Choco Mocha",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-5",
+      "name": "Ice Americano",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-6",
+      "name": "Ice Cappuccino",
+      "category": "Coffee"
+    },
+    {
+      "id": "item-7",
+      "name": "Caramel Cappuccino",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-8",
+      "name": "Chocolate",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-9",
+      "name": "Nutella",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-10",
+      "name": "Cookies n\u2019 Cream",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-11",
+      "name": "Blueberry Matcha",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-12",
+      "name": "Strawberry",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-13",
+      "name": "Caramel Mocha",
+      "category": "Frappe"
+    },
+    {
+      "id": "item-14",
+      "name": "Coffee Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-15",
+      "name": "Green Tea Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-16",
+      "name": "Chocolate Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-17",
+      "name": "Blueberry Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-18",
+      "name": "Choco Banana Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-19",
+      "name": "Mixed Berries Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-20",
+      "name": "Strawberry Milkshake",
+      "category": "Milkshake"
+    },
+    {
+      "id": "item-21",
+      "name": "Blueberry Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-22",
+      "name": "Blue Lemonade Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-23",
+      "name": "Grapes Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-24",
+      "name": "Kiwi Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-25",
+      "name": "Lemonade Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-26",
+      "name": "Lime Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-27",
+      "name": "Lychee Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-28",
+      "name": "Strawberry Refresher",
+      "category": "Tea & Refreshers"
+    },
+    {
+      "id": "item-29",
+      "name": "Grilled Cheese Toast",
+      "category": "Sandwiches & Toasts"
+    },
+    {
+      "id": "item-30",
+      "name": "Chicken Club Sandwich",
+      "category": "Sandwiches & Toasts"
+    },
+    {
+      "id": "item-31",
+      "name": "Golden Fries",
+      "category": "Finger Foods"
+    },
+    {
+      "id": "item-32",
+      "name": "Pesto Pasta",
+      "category": "Pasta"
+    },
+    {
+      "id": "item-33",
+      "name": "Creamy Chicken Rice",
+      "category": "Rice Meals"
+    },
+    {
+      "id": "item-34",
+      "name": "Chocolate Cake",
+      "category": "Cakes & Desserts"
+    }
+  ]
+}
